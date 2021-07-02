@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.vector {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+input, label, #calc-button {
+    display: block;
+    position: absolute;
+    left: 30px;
+}
+
+input#vector-x, label[for='vector-x'] {
+    top: 20px;
+}
+
+input#vector-y, label[for='vector-y'] {
+    top: 50px;
+}
+
+label[for='vector-x'], label[for='vector-y'] {
+    left: 15px;
+    z-index: 5;
+}
+
+#calc-button {
+    top: 80px;
+}
